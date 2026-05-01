@@ -1,0 +1,23 @@
+        {
+            "background": "#0B0F14",
+            "black": "#0B0F14",
+            "blue": "#0066B3",
+            "brightBlack": "#71767A",
+            "brightBlue": "#0066B3",
+            "brightCyan": "#2E7BCF",
+            "brightGreen": "#2E7BCF",
+            "brightPurple": "#F15A29",
+            "brightRed": "#E31C3D",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F15A29",
+            "cursorColor": "#F0F0F0",
+            "cyan": "#2E7BCF",
+            "foreground": "#F0F0F0",
+            "green": "#2E7BCF",
+            "name": "Artemis USWDS",
+            "purple": "#F15A29",
+            "red": "#ED1C24",
+            "selectionBackground": "#1A1F2A",
+            "white": "#F0F0F0",
+            "yellow": "#F15A29"
+        }
