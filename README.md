@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/jonahrileyhuggins/nasa-core/assets/Artemis Logo Color Positive RGB-July 2021~orig.jpg" width="80" />
+    <img src="./assets/NASA-Core_theme.png" width="80" />
     <h2 align="center">NASA-Core Theme</h2>
 </p>
 
