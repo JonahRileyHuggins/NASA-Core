@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./assets/NASA-Core_theme.png" width="600" />
+    <img src="./assets/NASA-Core_theme.png" width="1000" />
     <h2 align="center">NASA-Core Theme</h2>
 </p>
 
