@@ -1,4 +1,7 @@
 " Artemis-USWDS theme (derived from Rose Pine semantics)
+" For linux: store file in `~/.vim/colors/`
+" For windows: store file in `C:\Users\<YourUser>\vimfiles\colors\`
+" In your vim configuration file (e.g. .vimrc / _vimrc), set `colorscheme` to `artemis_uswds`
 
 hi clear
 " set background=dark
