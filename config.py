@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Custom color palette override for PtPython REPL application. 
+Custom color palette override for PtPython REPL application.
 
 If no path is returned when executing:
     `echo $env:PTPYTHON_CONFIG_HOME`
-Default path to this config needs to be set. 
+Default path to this config needs to be set.
 
 windows powershell
 `setx PTPYTHON_CONFIG_HOME "$env:APPDATA\ptpython"`
@@ -16,40 +16,33 @@ def configure(repl):
     print("ptpython config loaded")
 
     custom = Style.from_dict({
-        # base
-        "": "#f0f0f0",
+        # base — white predominant
+        "": "#ffffff",
 
-        # comments
+        # comments — Artemis grey
         "pygments.comment": "italic #71767a",
 
-        # --- STATEMENTS (NASA red) ---
+        # keywords — NASA red
         "pygments.keyword": "#ed1c24",
-        "pygments.keyword.control": "#ed1c24",
+        "pygments.keyword.control": "#0066b3",
+        "pygments.keyword.namespace": "#0066b3",
 
-        # --- IMPORT / TYPE-LIKE (purple) ---
-        "pygments.keyword.namespace": "#c4a7e7",
-
-        # --- OPERATORS ---
+        # operators & punctuation
         "pygments.operator": "#f0f0f0",
-        "pygments.operator.word": "#ed1c24",  # in, not, and, or
+        "pygments.operator.word": "#0066b3",
 
-        # --- NAMES ---
-        "pygments.name": "#f0f0f0",
-        "pygments.name.function": "#f15a29",
-        "pygments.name.builtin": "#f15a29",
-        
-        # --- STRINGS (NASA blue) ---
+        # names — white (strings, functions, variables)
+        "pygments.name": "#ffffff",
+        "pygments.name.function": "#ffffff",
+        "pygments.name.builtin": "#ffffff",
         "pygments.name.class": "#0066b3",
 
-        # escape characters inside strings
-        "pygments.string.escape": "#f0f0f0",
-        "pygments.string": "#f0f0f0",
+        "pygments.string.escape": "#ffffff",
+        "pygments.string": "#ffffff",
 
-
-        # --- NUMBERS + special chars ---
+        # numbers — Artemis orange accent
         "pygments.number": "#f15a29",
 
-        # --- punctuation ---
         "pygments.punctuation": "#f0f0f0",
     })
 

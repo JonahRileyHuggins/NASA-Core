@@ -33,6 +33,50 @@
     }
     ```
 
+### VS Code / Cursor
+
+The VS Code theme lives in the `nasa-core-artemis/` extension folder. After installing, choose **nasa-core-artemis** from the color theme picker.
+
+#### Install from source (recommended)
+
+1. Install [Node.js](https://nodejs.org/) if you do not already have it.
+2. Install the VS Code extension packaging tool:
+
+    ```powershell
+    npm install -g @vscode/vsce
+    ```
+
+3. Package the extension from the repo root:
+
+    ```powershell
+    cd nasa-core-artemis
+    vsce package
+    ```
+
+4. Install the generated `.vsix` file:
+   - **VS Code / Cursor:** open the Extensions view, open the `...` menu, choose **Install from VSIX...**, and select `nasa-core-artemis-0.0.1.vsix`
+   - **CLI:** `code --install-extension .\nasa-core-artemis-0.0.1.vsix`
+
+5. Reload the editor if prompted.
+
+#### Try without packaging (development)
+
+1. Open the `nasa-core-artemis` folder in VS Code or Cursor.
+2. Press `F5` to launch an **Extension Development Host** window.
+3. In the new window, open the color theme picker and select **nasa-core-artemis**.
+
+#### Apply the theme
+
+1. Open the Command Palette (`Ctrl+Shift+P` on Windows/Linux, `Cmd+Shift+P` on macOS).
+2. Run **Preferences: Color Theme** (or press `Ctrl+K`, then `Ctrl+T`).
+3. Select **nasa-core-artemis**.
+
+#### Theme files
+
+- `nasa-core-artemis/themes/nasa-core-artemis-color-theme.json` — full theme used by the extension
+- `artemis-uswds-vscode.json` — minimal reference theme
+- `artemis-usdws-vscode.jsonc` — full UI theme with additional workbench color customizations
+
 ### Vim
 **Windows**
 1.  Copy the `artemis_uswds.vim` file into the `~\vimfiles\colors\` directory

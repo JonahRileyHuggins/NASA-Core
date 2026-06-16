@@ -1,13 +1,13 @@
 {
   "name": "Artemis USWDS",
   "tab": {
-    "background": "#191724FF",
+    "background": "#0B0F14FF",
     "showCloseButton": "always",
     "unfocusedBackground": null
   },
   "tabRow": {
-    "background": "#26233AFF",
-    "unfocusedBackground": "#908CAAFF"
+    "background": "#11151CFF",
+    "unfocusedBackground": "#71767AFF"
   },
   "window": {
     "applicationTheme": "dark",

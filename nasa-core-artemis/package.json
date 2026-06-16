@@ -1,0 +1,21 @@
+{
+  "name": "nasa-core-artemis",
+  "displayName": "nasa-core-artemis",
+  "description": "Terminal, VS-Code, & Vim theme inspired by the Artemis 2 Lunar Flyby Photo Album",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "nasa-core-artemis",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nasa-core-artemis-color-theme.json"
+      }
+    ]
+  }
+}
