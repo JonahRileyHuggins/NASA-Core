@@ -12,9 +12,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "nasa-core-artemis",
+        "label": "nasa-core-artemis-dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/nasa-core-artemis-color-theme.json"
+        "path": "./themes/nasa-core-artemis-dark-color-theme.json"
+      },
+      {
+        "label": "nasa-core-artemis-light",
+        "uiTheme": "vs",
+        "path": "./themes/nasa-core-artemis-light-color-theme.json"
       }
     ]
   }

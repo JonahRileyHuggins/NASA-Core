@@ -1,9 +1,9 @@
-" Artemis-USWDS: NASA Core palette (USWDS + Artemis logo tones)
+" Artemis-USWDS Dark: NASA Core palette (USWDS + Artemis logo tones)
 
 hi clear
 syntax reset
 
-let g:colors_name = "artemis_uswds"
+let g:colors_name = "artemis_uswds_dark"
 
 " --- base ---
 hi Normal       guifg=#ffffff guibg=#0b0f14

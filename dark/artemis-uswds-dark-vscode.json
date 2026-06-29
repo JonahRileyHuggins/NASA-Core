@@ -1,0 +1,176 @@
+{
+    "name": "Artemis USWDS Dark",
+    "type": "dark",
+
+    "colors": {
+        "editor.background": "#0b0f14",
+        "editor.foreground": "#ffffff",
+
+        "editor.lineHighlightBackground": "#11151c",
+        "editor.selectionBackground": "#1a1f2a",
+
+        "editorLineNumber.foreground": "#71767a",
+        "editorLineNumber.activeForeground": "#ffffff",
+
+        "statusBar.background": "#11151c",
+        "statusBar.foreground": "#f0f0f0",
+
+        "panel.border": "#1a1f2a",
+        "editorGroup.border": "#1a1f2a",
+
+        "editorError.foreground": "#e31c3d",
+        "editorWarning.foreground": "#f15a29"
+    },
+
+    "tokenColors": [
+        {
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#71767a",
+                "fontStyle": "italic"
+            }
+        },
+
+        {
+            "scope": [
+                "constant.numeric",
+                "constant.language.boolean",
+                "constant.language.null",
+                "constant.language.undefined"
+            ],
+            "settings": {
+                "foreground": "#f15a29"
+            }
+        },
+
+        {
+            "scope": [
+                "string",
+                "string.quoted",
+                "string.template",
+                "constant.other.symbol",
+                "constant.character"
+            ],
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+
+        {
+            "scope": [
+                "variable",
+                "variable.parameter",
+                "variable.other",
+                "entity.name.variable",
+                "support.variable"
+            ],
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+
+        {
+            "scope": [
+                "entity.name.function",
+                "support.function",
+                "meta.function-call"
+            ],
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+
+        {
+            "scope": [
+                "keyword",
+                "storage",
+                "storage.type"
+            ],
+            "settings": {
+                "foreground": "#ed1c24"
+            }
+        },
+
+        {
+            "scope": [
+                "keyword.control",
+                "keyword.operator.word"
+            ],
+            "settings": {
+                "foreground": "#0066b3"
+            }
+        },
+
+        {
+            "scope": [
+                "keyword.operator",
+                "punctuation",
+                "punctuation.separator",
+                "punctuation.terminator"
+            ],
+            "settings": {
+                "foreground": "#f0f0f0"
+            }
+        },
+
+        {
+            "scope": [
+                "entity.name.type",
+                "entity.name.class",
+                "support.type",
+                "support.class",
+                "storage.type.class"
+            ],
+            "settings": {
+                "foreground": "#0066b3"
+            }
+        },
+
+        {
+            "scope": [
+                "entity.name.tag",
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#2e7bcf"
+            }
+        },
+
+        {
+            "scope": [
+                "keyword.other.import",
+                "keyword.other.namespace",
+                "storage.modifier.import",
+                "storage.modifier.package"
+            ],
+            "settings": {
+                "foreground": "#0066b3"
+            }
+        },
+
+        {
+            "scope": [
+                "invalid",
+                "invalid.illegal"
+            ],
+            "settings": {
+                "foreground": "#e31c3d"
+            }
+        },
+
+        {
+            "scope": [
+                "markup.bold",
+                "meta.annotation.todo",
+                "keyword.other.todo"
+            ],
+            "settings": {
+                "foreground": "#0b0f14",
+                "background": "#f15a29"
+            }
+        }
+    ]
+}
