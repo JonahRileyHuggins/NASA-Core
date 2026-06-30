@@ -134,15 +134,20 @@ The VS Code extension lives in `nasa-core-artemis/` and ships both **nasa-core-a
 2. Point ptpython at the config (e.g. `ptpython --config-file $env:PTPYTHON_CONFIG_HOME/ptpython-config-light.py`)
 
 ## Gallery
+### Dark Mode
 
 **Windows Terminal**
 
-![Artemis USWDS for Windows Terminal](./assets/windows-terminal.png)
+![Artemis USWDS Dark for Windows Terminal](./assets/windows-terminal.png)
 
 **Vim**
 
-![Artemis USWDS for Vim](./assets/vim-demo.png)
+![Artemis USWDS Dark for Vim](./assets/vim-demo.png)
 
 **PtPython**
 
-![Artemis USWDS for PtPython](./assets/ptpython.png)
+![Artemis USWDS Dark for PtPython](./assets/ptpython.png)
+
+### Light Mode 
+**Windows Terminal**
+![Artemis USWDS Light for Windows Terminal](./assets/lightmode-demo.png)
